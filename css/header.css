@@ -1,0 +1,11 @@
+.header {
+    text-align: center;
+    background-color: rgb(181, 181, 244);
+    padding: 15px;
+    margin: 20px;
+    font-size: 56px;
+    border-style: groove;
+    border-radius: 25px;
+    border-color: #578cc2;
+    box-shadow: 10px -10px 4px 0px #1F578E;
+}

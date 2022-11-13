@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 1000px;
+    margin: auto;
+    background-color: lavenderblush;
+}

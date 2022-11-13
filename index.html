@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/calculator.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Currency Converter</title>
+</head>
+
+<body class="body">
+    <header class="header">Kalkulator walutowy</header>
+    <form class="calculator js-form">
+        <p>
+            <label>
+                Kwota w PLN: <input class="js-amountPln" type="number" min="0" step="0.01" placeholder="podaj kwotę" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                <select class="js-currency" name="currency">
+                    <option value="EUR">EUR
+                    </option>
+                    <option value="USD">USD
+                    </option>
+                    <option value="GBP">GBP
+                    </option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <button class="calculator__button">Przelicz</button>
+        </p>
+        <p>
+            Otrzymasz: <span class="js-results">N/A</span>
+        </p>
+    </form>
+<footer class="footer">Copyright by Marcin Nir</footer>
+</body>
+
+</html>
